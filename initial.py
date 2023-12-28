@@ -30,6 +30,7 @@ def compute_embedding( image ):
     { prodouctId : image_embd }
 """
 def compute_similar_images( embd, num_images, product ):
+    
     all_embds = torch.stack(list(product.values()), dim = 0)
     all_products =  list(product.keys())
 
