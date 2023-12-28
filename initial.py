@@ -65,5 +65,3 @@ image = read_images('./images/95534.jpg')
 resized_image = image_preprocessing(image, 800, 800)
 product = read_embeddings()
 print(compute_similar_images( compute_embedding(resized_image), 5, product ))
-
-# compute_embedding( resized_image)
